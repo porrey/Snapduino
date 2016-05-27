@@ -1,0 +1,30 @@
+menu.clock=Clock
+
+snapduino.name=Snapduino
+
+snapduino.build.core=arduino:arduino
+snapduino.build.board=attiny
+snapduino.build.mcu=attiny85
+snapduino.build.variant=tiny8
+
+snapduino.upload.tool=arduino:avrdude
+snapduino.upload.protocol=arduino
+snapduino.upload.maximum_size=7616
+snapduino.upload.maximum_ram=512
+
+snapduino.bootloader.tool=arduino:avrdude
+snapduino.bootloader.file=optiboot/optiboot_attiny85.hex
+
+snapduino.menu.clock.internal8=8 MHz
+snapduino.menu.clock.internal8.bootloader.low_fuses=0xe2
+snapduino.menu.clock.internal8.bootloader.high_fuses=0xd7
+snapduino.menu.clock.internal8.bootloader.extended_fuses=0xfe
+snapduino.menu.clock.internal8.build.f_cpu=8000000L
+snapduino.menu.clock.internal8.upload.speed=19200
+
+snapduino.menu.clock.internal16=16 MHz
+snapduino.menu.clock.internal16.bootloader.low_fuses=0xf1
+snapduino.menu.clock.internal16.bootloader.high_fuses=0xdf
+snapduino.menu.clock.internal16.bootloader.extended_fuses=0xfe
+snapduino.menu.clock.internal16.build.f_cpu=16000000L
+snapduino.menu.clock.internal16.upload.speed=38400
