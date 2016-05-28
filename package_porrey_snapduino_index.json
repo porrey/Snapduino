@@ -16,10 +16,10 @@
           "help": {
             "online": "https://github.com/porrey/snapduino/blob/master/README.md"
           },
-          "url": "https://github.com/porrey/snapduino/archive/Hardware.zip",
-          "archiveFileName": "Hardware.zip",
-          "checksum": "MD5:f9515127c7ed81c31d521ed9a83944bc",
-          "size": "6634",
+          "url": "https://github.com/porrey/snapduino/archive/v1.0.0.zip",
+          "archiveFileName": "snapduino-1.0.0.zip",
+          "checksum": "MD5:be52186f72fb0ee9570e39409f28a997",
+          "size": "6580",
           "boards": [
             {"name": "Snapduino"}
           ],
