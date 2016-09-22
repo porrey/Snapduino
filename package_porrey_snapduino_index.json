@@ -4,6 +4,7 @@
       "name": "Snapduino",
       "maintainer": "Daniel M. Porrey",
       "websiteURL": "https://github.com/porrey/snapduino",
+      "email": "",
       "help": {
         "online": "https://github.com/porrey/snapduino/blob/master/README.md"
       },
