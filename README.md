@@ -6,6 +6,6 @@ For full project details go to https://www.hackster.io/porrey/snapduino-e5f0a5
 ##Branches
 There are two branches in this repository:
 
-* **Hardware** -> Contains all of the files neded to add the board to the Arduino IDE.
+* **Hardware** -> Contains all of the files needed to add the board to the Arduino IDE.
 
 * **IDE** -> Contains the package file. The URl below can be aded to the Boards Manager in the Preferences section.  https://raw.githubusercontent.com/porrey/snapduino/IDE/package_porrey_snapduino_index.json
