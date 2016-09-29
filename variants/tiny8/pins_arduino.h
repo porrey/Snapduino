@@ -44,6 +44,11 @@ static const uint8_t A1 = 7;
 static const uint8_t A2 = 8;
 static const uint8_t A3 = 9;
 
+// ***
+// *** Added 9/29/2016 - Daniel Porrey
+// ***
+static const uint8_t LED_BUILTIN = 0;
+
 #define digitalPinToPCICR(p)    ( ((p) >= 0 && (p) <= 4) ? (&GIMSK) : ((uint8_t *)0) )
 #define digitalPinToPCICRbit(p) ( PCIE )
 #define digitalPinToPCMSK(p)    ( ((p) <= 4) ? (&PCMSK) : ((uint8_t *)0) )
