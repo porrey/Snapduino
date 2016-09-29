@@ -36,6 +36,34 @@
               "version": "6.0.1-arduino5"
             }
           ]
+        },
+		{
+          "name": "Snapduino",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/porrey/snapduino/blob/master/README.md"
+          },
+          "url": "https://github.com/porrey/snapduino/archive/v1.0.1.zip",
+          "archiveFileName": "snapduino-1.0.1.zip",
+          "checksum": "MD5:0250dd5daae691f22d7099196b6e5f19",
+          "size": "6580",
+          "boards": [
+            {"name": "Snapduino"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
       ],
       "tools": []
