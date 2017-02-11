@@ -8,7 +8,7 @@
   modify it under the terms of the GNU Lesser General Public
   License as published by the Free Software Foundation; either
   version 2.1 of the License, or (at your option) any later version.
-
+ 
   This library is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
@@ -18,7 +18,7 @@
   Public License along with this library; if not, write to the
   Free Software Foundation, Inc., 59 Temple Place, Suite 330,
   Boston, MA  02111-1307  USA
-
+;
   $Id: pins_arduino.c 565 2009-03-25 10:50:00Z dmellis $
 
   Modified 28-08-2009 for attiny84 R.Wiersma
@@ -45,7 +45,7 @@ static const uint8_t A2 = 8;
 static const uint8_t A3 = 9;
 
 // ***
-// *** Added 9/29/2016 - Daniel Porrey
+// *** Added 9/29/2016 - Daniel Porrey (updated 2/1/2017)
 // ***
 static const uint8_t LED_BUILTIN = PB2;
 static const uint8_t YELLOW_PIN = PB0;
